@@ -81,3 +81,5 @@ export async function seedDatabase() {
     throw error;
   }
 }
+
+await seedDatabase()
